@@ -14,12 +14,76 @@ body {
 	background-color: #ccc;
 }
 
+.top .botona {
+	display: none;
+}
+
+.top .botonb {
+	display: block;
+}
+
+.top .botonc {
+	display: block;
+}
+
+
 .scenary {
 	height: 70%;
 	width: 100%;
 	position: absolute;
 	top: 20%;
 	background-color: #999;
+}
+
+.scenary .casa1 {
+	height: 100px;
+	width: 150px;
+	position: absolute;
+	left: 5%;
+	bottom: 90px;
+	background-color: white;
+	text-align: center;
+}
+
+.scenary .casa2 {
+	height: 200px;
+	width: 150px;
+	position: absolute;
+	left: 50%;
+	bottom: 90px;
+	background-color: blue;
+	text-align: center;
+	margin-left: -75px;
+}
+
+.scenary .casa3 {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	left: 85%;
+	bottom: 90px;
+	background-color: black;
+	text-align: center;
+}
+
+.scenary .maincarinit {
+	width: 150px;
+	height: 80px;
+	position: absolute;
+	bottom: 0px;
+	left: 5%;
+	background-color: red;
+	transition: left 1000ms;
+}
+
+
+.scenary .maincarinit.posb {
+	left: 50%;
+	margin-left: -75px;
+}
+
+.scenary .maincarinit.posc {
+	left: 85%;
 }
 
 .bottom {
