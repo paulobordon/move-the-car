@@ -14,6 +14,17 @@ var gotoC = function() {
 	document.getElementById('move').className = 'maincarinit + posc';
 }
 
+var h4Text = function() {
+	if (document.getElementById('move').className == 'maincarinit + posa') {
+		document.getElementById('text').innerHTML = "I ARRIVE A";
+	} else if (document.getElementById('move').className == 'maincarinit + posb') {
+		document.getElementById('text').innerHTML = "I ARRIVE B!!!";
+	} else if (document.getElementById('move').className == 'maincarinit + posc') {
+		document.getElementById('text').innerHTML = "I ARRIVE C! SO FAR!!";
+	}
+}
+
+
 
 //FAIL
 
