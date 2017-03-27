@@ -15,7 +15,7 @@ body {
 }
 
 .top .botona {
-	display: none;
+	display: block;
 }
 
 .top .botonb {
@@ -71,11 +71,14 @@ body {
 	height: 80px;
 	position: absolute;
 	bottom: 0px;
-	left: 5%;
+	left: 25%;
 	background-color: red;
 	transition: left 1000ms;
 }
 
+.scenary .maincarinit.posa {
+	left: 5%;
+}
 
 .scenary .maincarinit.posb {
 	left: 50%;

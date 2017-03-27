@@ -3,7 +3,7 @@
 console.log('HEY! lets move that car!!'); //no te olvides de cerrar con ;
 
 var gotoA = function() {
-	document.getElementById('move').className = 'maincarinit';
+	document.getElementById('move').className = 'maincarinit + posa';
 }
 
 var gotoB = function() {
@@ -15,26 +15,43 @@ var gotoC = function() {
 }
 
 
+//FAIL
 
-var showHide = function() {
+// var showHideAB = function() {
 
-	if (document.getElementById('botona').style.display == 'block') {
+// 	if (document.getElementById('botonb').style.display == 'none') {
 
-		document.getElementById('botona').style.display = 'none';
-		document.getElementById('botonb').style.display = 'block';
+// 		document.getElementById('botona').style.display = 'none';
+// 		document.getElementById('botonb').style.display = 'block';
 
-	} else {
-		document.getElementById('botona').style.display = 'block';
-		document.getElementById('botonb').style.display = 'none';
-	};
+// 	} else {
+// 		document.getElementById('botona').style.display = 'block';
+// 		document.getElementById('botonb').style.display = 'none';
+// 	};
 
-	if (document.getElementById('botonc').style.display == 'none') {
+// }
 
-		document.getElementById('botonc').style.display = 'block';
-		document.getElementById('botona').style.display = 'none';
+// var showHideAC = function() {
 
-	} else {
-		document.getElementById('botonc').style.display = 'none';
-		document.getElementById('botona').style.display = 'block';
-	};
-}
+// 	if (document.getElementById('botonc').style.display == 'none') {
+
+// 		document.getElementById('botona').style.display = 'none';
+// 		document.getElementById('botonc').style.display = 'block';
+
+// 	} else {
+// 		document.getElementById('botona').style.display = 'block';
+// 		document.getElementById('botonc').style.display = 'none';
+// 	};
+
+// }
+
+
+	// if (document.getElementById('botonc').style.display == 'none') {
+
+	// 	document.getElementById('botonc').style.display = 'block';
+	// 	document.getElementById('botona').style.display = 'none';
+
+	// } else {
+	// 	document.getElementById('botonc').style.display = 'none';
+	// 	document.getElementById('botona').style.display = 'block';
+	// };
